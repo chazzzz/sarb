@@ -9,10 +9,10 @@ import org.springframework.web.bind.annotation.ResponseBody;
  * Created by chazz on 4/18/2015.
  */
 @Controller
-@RequestMapping("/home")
-public class HomeController {
+@RequestMapping({"/", ""})
+public class IndexController {
 
-	@RequestMapping(value = "/", method = RequestMethod.GET)
+	@RequestMapping(method = RequestMethod.GET)
 	public String index() {
 		return "index";
 	}
