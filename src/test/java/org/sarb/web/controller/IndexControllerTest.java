@@ -3,6 +3,7 @@ package org.sarb.web.controller;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
+import org.sarb.config.ApplicationConfig;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.MediaType;
 import org.springframework.test.context.ContextConfiguration;
@@ -22,7 +23,7 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
  * Created by chazz on 5/20/2015.
  */
 @RunWith(SpringJUnit4ClassRunner.class)
-@ContextConfiguration(value = {"classpath:config/spring/context-*.xml"})
+@ContextConfiguration(classes = {ApplicationConfig.class})
 @WebAppConfiguration
 public class IndexControllerTest {
 
