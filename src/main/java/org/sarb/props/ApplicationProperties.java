@@ -14,7 +14,7 @@ public class ApplicationProperties {
     private String activeEnvironment;
 
     public EnvironmentProfile getActiveEnvironmentProfile() {
-        return EnvironmentProfile.getEnvirontmentProfile(activeEnvironment);
+        return EnvironmentProfile.getEnvironmentProfile(activeEnvironment);
     }
 
     public String getActiveEnvironment() {

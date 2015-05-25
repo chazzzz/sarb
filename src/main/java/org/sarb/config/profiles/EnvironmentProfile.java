@@ -24,7 +24,7 @@ public enum EnvironmentProfile {
         return environmentProfile;
     }
 
-    public static EnvironmentProfile getEnvirontmentProfile(String environmentProfile) {
+    public static EnvironmentProfile getEnvironmentProfile(String environmentProfile) {
         if (DEVELOPMENT.getEnvironmentProfile().equalsIgnoreCase(environmentProfile)) {
             return DEVELOPMENT;
         }
