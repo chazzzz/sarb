@@ -9,6 +9,6 @@ import org.springframework.context.annotation.PropertySource;
  */
 @Configuration
 @Profile("env_testing")
-@PropertySource("classpath:environment/testing/env_testing.properties")
+@PropertySource("classpath:environment/testing/application.properties")
 public class TestProfile {
 }

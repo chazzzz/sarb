@@ -9,6 +9,6 @@ import org.springframework.context.annotation.PropertySource;
  */
 @Configuration
 @Profile("env_development")
-@PropertySource("classpath:environment/development/env_development.properties")
+@PropertySource("classpath:environment/development/application.properties")
 public class DevProfile {
 }
