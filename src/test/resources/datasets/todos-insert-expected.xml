@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataset>
+	<Todo id="1" details="Before implementing a service method, must write a unit test first" title="Setup Test" version="0"/>
+	<Todo id="2" details="Implementing functionality will come after the unit tests are written" title="Implement Functionality" version="0"/>
+	<Todo id="3" details="This concludes your junit training" title="Wash, Rinse, Repeat" version="0"/>
+
+	<User />
+</dataset>

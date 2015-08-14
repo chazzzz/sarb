@@ -39,4 +39,8 @@ public enum EnvironmentProfile {
 
         return null;
     }
+
+	public String getProfileName() {
+		return this.environmentProfile;
+	}
 }
